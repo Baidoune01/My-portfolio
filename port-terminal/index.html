@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kali Terminal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="matrix-background"></div>
+    <div id="terminal">
+        <div id="terminal-header">
+            <div class="window-btn close"></div>
+            <div class="window-btn minimize"></div>
+            <div class="window-btn maximize"></div>
+            <div class="title-text">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTggMEMzLjU4IDAgMCAzLjU4IDAgOGMwIDQuNDIgMy41OCA4IDggOHM4LTMuNTggOC04YzAtNC40Mi0zLjU4LTgtOC04ek04IDE1Yy0zLjg3IDAtNy0zLjEzLTctN3MzLjEzLTcgNy03IDcgMy4xMyA3IDctMy4xMyA3LTcgN3oiLz48cGF0aCBkPSJNOCA0djJjMS4xIDAgMiAuOSAyIDJIOEM3LjQ1IDggNyA3LjU1IDcgN3MuNDUtMSAxLTFWNGgtMXYxSDZ2MWgxdjFjLS41NSAwLTEgLjQ1LTEgMXMuNDUgMSAxIDFoMnYxSDh2MUg3djFoMnYtMWMxLjEgMCAyLS45IDItMnMtLjktMi0yLTJ2LTFoMVY2aDFWNWgtMVY0eiIvPjwvc3ZnPg=="
+                    alt="Terminal Icon">
+                <span>root@kali: ~/portfolio</span>
+            </div>
+        </div>
+        <div id="terminal-content">
+            <div id="output"></div>
+            <div id="input-line">
+                <span class="prompt">
+                    <span class="user">baidoune</span>
+                <span class="at">@</span>
+                <span class="host">portfolio</span>:
+                <span style="color: #3465A4;">~</span>$
+                </span>
+                <input id="command" type="text" autocomplete="off" autofocus>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
